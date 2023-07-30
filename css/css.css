@@ -2,4 +2,20 @@ body {
   color: white;
 }
 
-/*# sourceMappingURL=css.css.map */
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  white-space: break-spaces;
+  background-color: #ced4da;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 1em;
+  color: #495057;
+}
+
+.offcanvas {
+  min-width: 50%;
+}
+.offcanvas-title code {
+  font-size: 0.75em;
+}
