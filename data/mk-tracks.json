@@ -1,0 +1,1424 @@
+{
+  "Cups": {
+    "1": {
+      "name": "Mushroom Cup",
+      "slug": "mushroom-cup",
+      "icon": "Mushroom_Cup_Emblem.png"
+    },
+    "2": {
+      "name": "Flower Cup",
+      "slug": "flower-cup",
+      "icon": "Flower_Cup_Emblem.png"
+    },
+    "3": {
+      "name": "Star Cup",
+      "slug": "star-cup",
+      "icon": "Star_Cup_Emblem.png"
+    },
+    "4": {
+      "name": "Special Cup",
+      "slug": "special-cup",
+      "icon": "Special_Cup_Emblem.png"
+    },
+    "5": {
+      "name": "Shell Cup",
+      "slug": "shell-cup",
+      "icon": "Shell_Cup_Emblem.png"
+    },
+    "6": {
+      "name": "Banana Cup",
+      "slug": "banana-cup",
+      "icon": "Banana_Cup_Emblem.png"
+    },
+    "7": {
+      "name": "Leaf Cup",
+      "slug": "leaf-cup",
+      "icon": "Leaf_Cup_Emblem.png"
+    },
+    "8": {
+      "name": "Lightning Cup",
+      "slug": "lightning-cup",
+      "icon": "Lightning_Cup_Emblem.png"
+    },
+    "9": {
+      "name": "Egg Cup",
+      "slug": "egg-cup",
+      "icon": "Egg_Cup_Emblem.png"
+    },
+    "10": {
+      "name": "Crossing Cup",
+      "slug": "crossing-cup",
+      "icon": "Crossing_Cup_Emblem.png"
+    },
+    "11": {
+      "name": "Triforce Cup",
+      "slug": "triforce-cup",
+      "icon": "Triforce_Cup_Emblem.png"
+    },
+    "12": {
+      "name": "Bell Cup",
+      "slug": "bell-cup",
+      "icon": "Bell_Cup_Emblem.png"
+    },
+    "13": {
+      "name": "Golden Dash Cup",
+      "slug": "golden-dash-cup",
+      "icon": "Golden_Dash_Cup_Emblem.png"
+    },
+    "14": {
+      "name": "Lucky Cat Cup",
+      "slug": "luck-cat-cup",
+      "icon": "Lucky_Cat_Cup_Emblem.png"
+    },
+    "15": {
+      "name": "Turnip Cup",
+      "slug": "turnip-cup",
+      "icon": "Turnip_Cup_Emblem.png"
+    },
+    "16": {
+      "name": "Propeller Cup",
+      "slug": "propeller-cup",
+      "icon": "Propeller_Cup_Emblem.png"
+    },
+    "17": {
+      "name": "Rock Cup",
+      "slug": "rock-cup",
+      "icon": "Rock_Cup_Emblem.png"
+    },
+    "18": {
+      "name": "Moon Cup",
+      "slug": "moon-cup",
+      "icon": "Moon_Cup_Emblem.png"
+    },
+    "19": {
+      "name": "Fruit Cup",
+      "slug": "fruit-cup",
+      "icon": "Fruit_Cup_Emblem.png"
+    },
+    "20": {
+      "name": "Boomerang Cup",
+      "slug": "boomerang-cup",
+      "icon": "Boomerang_Cup_Emblem.png"
+    },
+    "21": {
+      "name": "Feather Cup",
+      "slug": "feather-cup",
+      "icon": "Feather_Cup_Emblem.png"
+    },
+    "22": {
+      "name": "Cherry Cup",
+      "slug": "cherry-cup",
+      "icon": "Cherry_Cup_Emblem.png"
+    }
+  },
+  "Tracks": {
+    "1": {
+      "name": "Mario Kart Stadium",
+      "slug": "mario-kart-stadium",
+      "code": "mks",
+      "cup": "1",
+      "img": "Mario_Kart_Stadium_Course_Icon.png",
+      "map": "01.jpg"
+    },
+    "2": {
+      "name": "Water Park",
+      "slug": "water-park",
+      "code": "wp",
+      "cup": "1",
+      "img": "Water_Park_Course_Icon.png",
+      "map": "02.jpg"
+    },
+    "3": {
+      "name": "Sweet Sweet Canyon",
+      "slug": "sweet-sweet-canyon",
+      "code": "ssc",
+      "cup": "1",
+      "img": "Sweet_Sweet_Canyon_Course_Icon.png",
+      "map": "03.jpg"
+    },
+    "4": {
+      "name": "Thwomp Ruins",
+      "slug": "thwomp-ruins",
+      "code": "tr",
+      "cup": "1",
+      "img": "Thwomp_Ruins_Course_Icon.png",
+      "map": "04.jpg"
+    },
+    "5": {
+      "name": "Mario Circuit",
+      "slug": "mario-circuit",
+      "code": "mc",
+      "cup": "2",
+      "img": "Mario_Circuit_Course_Icon.png",
+      "map": "05.jpg"
+    },
+    "6": {
+      "name": "Toad Harbor",
+      "slug": "toad-harbor",
+      "code": "th",
+      "cup": "2",
+      "img": "Toad_Harbor_Course_Icon.png",
+      "map": "06.jpg"
+    },
+    "7": {
+      "name": "Twisted Mansion",
+      "slug": "twisted-mansion",
+      "code": "tm",
+      "cup": "2",
+      "img": "Twisted_Mansion_Course_Icon.png",
+      "map": "07.jpg"
+    },
+    "8": {
+      "name": "Shy Guy Falls",
+      "slug": "shy-guy-falls",
+      "code": "sgf",
+      "cup": "2",
+      "img": "Shy_Guy_Falls_Course_Icon.png",
+      "map": "08.jpg"
+    },
+    "9": {
+      "name": "Sunshine Airport",
+      "slug": "sunshine-airport",
+      "code": "sa",
+      "cup": "3",
+      "img": "Sunshine_Airport_Course_Icon.png",
+      "map": "09.jpg"
+    },
+    "10": {
+      "name": "Dolphin Shoals",
+      "slug": "dolphin-shoals",
+      "code": "ds",
+      "cup": "3",
+      "img": "Dolphin_Shoals_Course_Icon.png",
+      "map": "10.jpg"
+    },
+    "11": {
+      "name": "Electrodrome",
+      "slug": "electrodrome",
+      "code": "ed",
+      "cup": "3",
+      "img": "Electrodrome_Course_Icon.png",
+      "map": "11.jpg"
+    },
+    "12": {
+      "name": "Mount Wario",
+      "slug": "mount-wario",
+      "code": "mw",
+      "cup": "3",
+      "img": "Mount_Wario_Course_Icon.png",
+      "map": "12.jpg"
+    },
+    "13": {
+      "name": "Cloudtop Cruise",
+      "slug": "cloudtop-cruise",
+      "code": "cc",
+      "cup": "4",
+      "img": "Cloudtop_Cruise_Course_Icon.png",
+      "map": "13.jpg"
+    },
+    "14": {
+      "name": "Bone-Dry Dunes",
+      "slug": "bone-dry-dunes",
+      "code": "bdd",
+      "cup": "4",
+      "img": "Bone-Dry_Dunes_Course_Icon.png",
+      "map": "14.jpg"
+    },
+    "15": {
+      "name": "Bowser's Castle",
+      "slug": "bowsers-castle",
+      "code": "bc",
+      "cup": "4",
+      "img": "Bowser's_Castle_Course_Icon.png",
+      "map": "15.jpg"
+    },
+    "16": {
+      "name": "Rainbow Road",
+      "slug": "rainbow-road",
+      "code": "rr",
+      "cup": "4",
+      "img": "Rainbow_Road_Course_Icon.png",
+      "map": "16.jpg"
+    },
+    "17": {
+      "name": "Moo Moo Meadows",
+      "slug": "moo-moo-meadows",
+      "code": "rmmm",
+      "cup": "5",
+      "img": "Moo_Moo_Meadows_Course_Icon.png",
+      "map": "17.jpg"
+    },
+    "18": {
+      "name": "GBA Mario Circuit",
+      "slug": "gba-mario-circuit",
+      "code": "rmc",
+      "cup": "5",
+      "img": "GBA_Mario_Circuit_Course_Icon.png",
+      "map": "18.jpg"
+    },
+    "19": {
+      "name": "Cheep Cheep Beach",
+      "slug": "cheep-cheep-beach",
+      "code": "rccb",
+      "cup": "5",
+      "img": "Cheep_Cheep_Beach_Course_Icon.png",
+      "map": "19.jpg"
+    },
+    "20": {
+      "name": "Toad's Turnpike",
+      "slug": "toads-turnpike",
+      "code": "rtt",
+      "cup": "5",
+      "img": "Toad's_Turnpike_Course_Icon.png",
+      "map": "20.jpg"
+    },
+    "21": {
+      "name": "Dry Dry Desert",
+      "slug": "dry-dry-desert",
+      "code": "rddd",
+      "cup": "6",
+      "img": "Dry_Dry_Desert_Course_Icon.png",
+      "map": "21.jpg"
+    },
+    "22": {
+      "name": "Donut Plains 3",
+      "slug": "donut-plains-3",
+      "code": "rdp3",
+      "cup": "6",
+      "img": "Donut_Plains_3_Course_Icon.png",
+      "map": "22.jpg"
+    },
+    "23": {
+      "name": "Royal Raceway",
+      "slug": "royal-raceway",
+      "code": "rrry",
+      "cup": "6",
+      "img": "Royal_Raceway_Course_Icon.png",
+      "map": "23.jpg"
+    },
+    "24": {
+      "name": "DK Jungle",
+      "slug": "dk-jungle",
+      "code": "rdkj",
+      "cup": "6",
+      "img": "DK_Jungle_Course_Icon.png",
+      "map": "24.jpg"
+    },
+    "25": {
+      "name": "Wario Stadium",
+      "slug": "wario-stadium",
+      "code": "rws",
+      "cup": "7",
+      "img": "Wario_Stadium_Course_Icon.png",
+      "map": "25.jpg"
+    },
+    "26": {
+      "name": "Sherbet Land",
+      "slug": "sherbet-land",
+      "code": "rsl",
+      "cup": "7",
+      "img": "Sherbet_Land_Course_Icon.png",
+      "map": "26.jpg"
+    },
+    "27": {
+      "name": "Music Park",
+      "slug": "music-park",
+      "code": "rmp",
+      "cup": "7",
+      "img": "Music_Park_Course_Icon.png",
+      "map": "27.jpg"
+    },
+    "28": {
+      "name": "Yoshi Valley",
+      "slug": "yoshi-valley",
+      "code": "ryv",
+      "cup": "7",
+      "img": "Yoshi_Valley_Course_Icon.png",
+      "map": "28.jpg"
+    },
+    "29": {
+      "name": "Tick-Tock Clock",
+      "slug": "tick-tock-clock",
+      "code": "rttc",
+      "cup": "8",
+      "img": "Tick-Tock_Clock_Course_Icon.png",
+      "map": "29.jpg"
+    },
+    "30": {
+      "name": "Piranha Plant Slide",
+      "slug": "piranha-plant-slide",
+      "code": "rpps",
+      "cup": "8",
+      "img": "Piranha_Plant_Slide_Course_Icon.png",
+      "map": "30.jpg"
+    },
+    "31": {
+      "name": "Grumble Volcano",
+      "slug": "grumble-volcano",
+      "code": "rgv",
+      "cup": "8",
+      "img": "Grumble_Volcano_Course_Icon.png",
+      "map": "31.jpg"
+    },
+    "32": {
+      "name": "N64 Rainbow Road",
+      "slug": "n64-rainbow-road",
+      "code": "rrrd",
+      "cup": "8",
+      "img": "N64_Rainbow_Road_Course_Icon.png",
+      "map": "32.jpg"
+    },
+    "33": {
+      "name": "Yoshi Circuit",
+      "slug": "yoshi-circuit",
+      "code": "dyc",
+      "cup": "9",
+      "img": "Yoshi_Circuit_Course_Icon.png",
+      "map": "33.jpg"
+    },
+    "34": {
+      "name": "Excitebike Arena",
+      "slug": "excitebike-arena",
+      "code": "dea",
+      "cup": "9",
+      "img": "Excitebike_Arena_Course_Icon.png",
+      "map": "34.jpg"
+    },
+    "35": {
+      "name": "Dragon Driftway",
+      "slug": "dragon-driftway",
+      "code": "ddd",
+      "cup": "9",
+      "img": "Dragon_Driftway_Course_Icon.png",
+      "map": "35.jpg"
+    },
+    "36": {
+      "name": "Mute City",
+      "slug": "mute-city",
+      "code": "dmc",
+      "cup": "9",
+      "img": "Mute_City_Course_Icon.png",
+      "map": "36.jpg"
+    },
+    "37": {
+      "name": "Baby Park",
+      "slug": "baby-park",
+      "code": "dbp",
+      "cup": "10",
+      "img": "Baby_Park_Course_Icon.png",
+      "map": "37.jpg"
+    },
+    "38": {
+      "name": "Cheese Land",
+      "slug": "cheese-land",
+      "code": "dcl",
+      "cup": "10",
+      "img": "Cheese_Land_Course_Icon.png",
+      "map": "38.jpg"
+    },
+    "39": {
+      "name": "Wild Woods",
+      "slug": "wild-woods",
+      "code": "dww",
+      "cup": "10",
+      "img": "Wild_Woods_Course_Icon.png",
+      "map": "39.jpg"
+    },
+    "40": {
+      "name": "Animal Crossing",
+      "slug": "animal-crossing",
+      "code": "dac",
+      "cup": "10",
+      "img": "Animal_Crossing_Course_Icon.png",
+      "map": "40.jpg"
+    },
+    "41": {
+      "name": "Wario's Gold Mine",
+      "slug": "warios-gold-mine",
+      "code": "dwgm",
+      "cup": "11",
+      "img": "Wario's_Gold_Mine_Course_Icon.png",
+      "map": "41.jpg"
+    },
+    "42": {
+      "name": "SNES Rainbow Road",
+      "slug": "snes-rainbow-road",
+      "code": "drr",
+      "cup": "11",
+      "img": "SNES_Rainbow_Road_Course_Icon.png",
+      "map": "42.jpg"
+    },
+    "43": {
+      "name": "Ice Ice Outpost",
+      "slug": "ice-ice-outpost",
+      "code": "diio",
+      "cup": "11",
+      "img": "Ice_Ice_Outpost_Course_Icon.png",
+      "map": "43.jpg"
+    },
+    "44": {
+      "name": "Hyrule Circuit",
+      "slug": "hyrule-circuit",
+      "code": "dhc",
+      "cup": "11",
+      "img": "Hyrule_Circuit_Course_Icon.png",
+      "map": "44.jpg"
+    },
+    "45": {
+      "name": "Neo Bowser City",
+      "slug": "neo-bowser-city",
+      "code": "dnbc",
+      "cup": "12",
+      "img": "Neo_Bowser_City_Course_Icon.png",
+      "map": "45.jpg"
+    },
+    "46": {
+      "name": "Ribbon Road",
+      "slug": "ribbon-road",
+      "code": "drir",
+      "cup": "12",
+      "img": "Ribbon_Road_Course_Icon.png",
+      "map": "46.jpg"
+    },
+    "47": {
+      "name": "Super Bell Subway",
+      "slug": "super-bell-subway",
+      "code": "dsbs",
+      "cup": "12",
+      "img": "Super_Bell_Subway_Course_Icon.png",
+      "map": "47.jpg"
+    },
+    "48": {
+      "name": "Big Blue",
+      "slug": "big-blue",
+      "code": "dbb",
+      "cup": "12",
+      "img": "Big_Blue_Course_Icon.png",
+      "map": "48.jpg"
+    },
+    "49": {
+      "name": "Paris Promenade",
+      "slug": "paris-promenade",
+      "code": "bpp",
+      "cup": "13",
+      "img": "Paris_Promenade_Course_Icon.png",
+      "map": "49.jpg"
+    },
+    "50": {
+      "name": "Toad Circuit",
+      "slug": "toad-circuit",
+      "code": "btc",
+      "cup": "13",
+      "img": "Toad_Circuit_Course_Icon.png",
+      "map": "50.jpg"
+    },
+    "51": {
+      "name": "Choco Mountain",
+      "slug": "choco-mountain",
+      "code": "bcmo",
+      "cup": "13",
+      "img": "Choco_Mountain_Course_Icon.png",
+      "map": "51.jpg"
+    },
+    "52": {
+      "name": "Coconut Mall",
+      "slug": "coconut-mall",
+      "code": "bcma",
+      "cup": "13",
+      "img": "Coconut_Mall_Course_Icon.png",
+      "map": "52.jpg"
+    },
+    "53": {
+      "name": "Tokyo Blur",
+      "slug": "tokyo-blur",
+      "code": "btb",
+      "cup": "14",
+      "img": "Tokyo_Blur_Course_Icon.png",
+      "map": "53.jpg"
+    },
+    "54": {
+      "name": "Shroom Ridge",
+      "slug": "shroom-ridge",
+      "code": "bsr",
+      "cup": "14",
+      "img": "Shroom_Ridge_Course_Icon.png",
+      "map": "54.jpg"
+    },
+    "55": {
+      "name": "Sky Garden",
+      "slug": "sky-garden",
+      "code": "bsg",
+      "cup": "14",
+      "img": "Sky_Garden_Course_Icon.png",
+      "map": "55.jpg"
+    },
+    "56": {
+      "name": "Ninja Hideaway",
+      "slug": "ninja-hideaway",
+      "code": "bnh",
+      "cup": "14",
+      "img": "Ninja_Hideaway_Course_Icon.png",
+      "map": "56.jpg"
+    },
+    "57": {
+      "name": "New York Minute",
+      "slug": "new-york-minute",
+      "code": "bnym",
+      "cup": "15",
+      "img": "New_York_Minute_Course_Icon.png",
+      "map": "57.jpg"
+    },
+    "58": {
+      "name": "Mario Circuit 3",
+      "slug": "mario-circuit-3",
+      "code": "bmc3",
+      "cup": "15",
+      "img": "Mario_Circuit_3_Course_Icon.png",
+      "map": "58.jpg"
+    },
+    "59": {
+      "name": "Kalamari Desert",
+      "slug": "kalamari-desert",
+      "code": "bkd",
+      "cup": "15",
+      "img": "Kalamari_Desert_Course_Icon.png",
+      "map": "59.jpg"
+    },
+    "60": {
+      "name": "Waluigi Pinball",
+      "slug": "waluigi-pinball",
+      "code": "bwp",
+      "cup": "15",
+      "img": "Waluigi_Pinball_Course_Icon.png",
+      "map": "60.jpg"
+    },
+    "61": {
+      "name": "Sydney Sprint",
+      "slug": "sydney-sprint",
+      "code": "bss",
+      "cup": "16",
+      "img": "Sydney_Sprint_Course_Icon.png",
+      "map": "61.jpg"
+    },
+    "62": {
+      "name": "Snow Land",
+      "slug": "snow-land",
+      "code": "bsl",
+      "cup": "16",
+      "img": "Snow_Land_Course_Icon.png",
+      "map": "62.jpg"
+    },
+    "63": {
+      "name": "Mushroom Gorge",
+      "slug": "mushroom-gorge",
+      "code": "bmg",
+      "cup": "16",
+      "img": "Mushroom_Gorge_Course_Icon.png",
+      "map": "63.jpg"
+    },
+    "64": {
+      "name": "Sky-High Sundae",
+      "slug": "sky-high-sundae",
+      "code": "bshs",
+      "cup": "16",
+      "img": "Sky-High_Sundae_Course_Icon.png",
+      "map": "64.jpg"
+    },
+    "65": {
+      "name": "London Loop",
+      "slug": "london-loop",
+      "code": "bll",
+      "cup": "17",
+      "img": "London_Loop_Course_Icon.png",
+      "map": "65.jpg"
+    },
+    "66": {
+      "name": "Boo Lake",
+      "slug": "boo-lake",
+      "code": "bbl",
+      "cup": "17",
+      "img": "Boo_Lake_Course_Icon.png",
+      "map": "66.jpg"
+    },
+    "67": {
+      "name": "Rock Rock Mountain",
+      "slug": "rock-rock-mountain",
+      "code": "brrm",
+      "cup": "17",
+      "img": "Rock_Rock_Mountain_Course_Icon.png",
+      "map": "67.jpg"
+    },
+    "68": {
+      "name": "Maple Treeway",
+      "slug": "maple-treeway",
+      "code": "bmt",
+      "cup": "17",
+      "img": "Maple_Treeway_Course_Icon.png",
+      "map": "68.jpg"
+    },
+    "69": {
+      "name": "Berlin Byways",
+      "slug": "berlin-byways",
+      "code": "bbb",
+      "cup": "18",
+      "img": "Berlin_Byways_Course_Icon.png",
+      "map": "69.jpg"
+    },
+    "70": {
+      "name": "Peach Gardens",
+      "slug": "peache-gardens",
+      "code": "bpg",
+      "cup": "18",
+      "img": "Peach_Gardens_Course_Icon.png",
+      "map": "70.jpg"
+    },
+    "71": {
+      "name": "Merry Mountain",
+      "slug": "merry-mountain",
+      "code": "bmm",
+      "cup": "18",
+      "img": "Merry_Mountain_Course_Icon.png",
+      "map": "71.jpg"
+    },
+    "72": {
+      "name": "3DS Rainbow Road",
+      "slug": "x3ds-rainbow-road",
+      "code": "brr",
+      "cup": "18",
+      "img": "3DS_Rainbow_Road_Course_Icon.png",
+      "map": "72.jpg"
+    },
+    "73": {
+      "name": "Amsterdam Drift",
+      "slug": "amsterdam-drift",
+      "code": "bad",
+      "cup": "19",
+      "img": "Amsterdam_Drift_Course_Icon.png",
+      "map": "73.jpg"
+    },
+    "74": {
+      "name": "Riverside Park",
+      "slug": "rivierside-park",
+      "code": "brp",
+      "cup": "19",
+      "img": "Riverside_Park_Course_Icon.png",
+      "map": "74.jpg"
+    },
+    "75": {
+      "name": "DK Summit",
+      "slug": "dk-summit",
+      "code": "bdks",
+      "cup": "19",
+      "img": "DK_Summit_Course_Icon.png",
+      "map": "75.jpg"
+    },
+    "76": {
+      "name": "Yoshi's Island",
+      "slug": "yoshis-island",
+      "code": "byi",
+      "cup": "19",
+      "img": "Yoshi's_Island_Course_Icon.png",
+      "map": "76.jpg"
+    },
+    "77": {
+      "name": "Bangkok Rush",
+      "slug": "bangkok-rush",
+      "code": "bbr",
+      "cup": "20",
+      "img": "Bangkok_Rush_Course_Icon.png",
+      "map": "77.jpg"
+    },
+    "78": {
+      "name": "DS Mario Circuit",
+      "slug": "ds-mario-circuit",
+      "code": "bmc",
+      "cup": "20",
+      "img": "DS_Mario_Circuit_Course_Icon.png",
+      "map": "78.jpg"
+    },
+    "79": {
+      "name": "Waluigi Stadium",
+      "slug": "waluigi-stadium",
+      "code": "bws",
+      "cup": "20",
+      "img": "Waluigi_Stadium_Course_Icon.png",
+      "map": "79.jpg"
+    },
+    "80": {
+      "name": "Singapore Speedway",
+      "slug": "singapore-speedway",
+      "code": "bssy",
+      "cup": "20",
+      "img": "Singapore_Speedway_Course_Icon.png",
+      "map": "80.jpg"
+    },
+    "81": {
+      "name": "Athens Dash",
+      "slug": "athens-dash",
+      "code": "batd",
+      "cup": "21",
+      "img": "Athens_Dash_Course_Icon.png",
+      "map": "81.jpg"
+    },
+    "82": {
+      "name": "Daisy Cruiser",
+      "slug": "daisy-cruiser",
+      "code": "bdc",
+      "cup": "21",
+      "img": "Daisy_Cruiser_Course_Icon.png",
+      "map": "82.jpg"
+    },
+    "83": {
+      "name": "Moonview Highway",
+      "slug": "moonview-highway",
+      "code": "bmh",
+      "cup": "21",
+      "img": "Moonview_Highway_Course_Icon.png",
+      "map": "83.jpg"
+    },
+    "84": {
+      "name": "Squeaky Clean Sprint",
+      "slug": "squeaky-clean-sprint",
+      "code": "bscs",
+      "cup": "21",
+      "img": "Squeaky_Clean_Sprint_Course_Icon.png",
+      "map": "84.jpg"
+    },
+    "85": {
+      "name": "Los Angeles Laps",
+      "slug": "los-angeles-laps",
+      "code": "blal",
+      "cup": "22",
+      "img": "Los_Angeles_Laps_Course_Icon.png",
+      "map": "85.jpg"
+    },
+    "86": {
+      "name": "Sunset Wilds",
+      "slug": "sunset-wilds",
+      "code": "bsw",
+      "cup": "22",
+      "img": "Sunset_Wilds_Course_Icon.png",
+      "map": "86.jpg"
+    },
+    "87": {
+      "name": "Koopa Cape",
+      "slug": "koopa-cape",
+      "code": "bkc",
+      "cup": "22",
+      "img": "Koopa_Cape_Course_Icon.png",
+      "map": "87.jpg"
+    },
+    "88": {
+      "name": "Vancouver Velocity",
+      "slug": "vancouver-velocity",
+      "code": "bvv",
+      "cup": "22",
+      "img": "Vancouver_Velocity_Course_Icon.png",
+      "map": "88.jpg"
+    }
+  },
+  "Bill": {
+    "1": {
+      "track": "mario-kart-stadium",
+      "count": 1,
+      "ext": true,
+      "img": "mario-kart-stadium-1.jpg",
+      "description": "Lamp post after second item set"
+    },
+    "2": {
+      "track": "water-park",
+      "count": 1,
+      "ext": false,
+      "img": "water-park-1.jpg",
+      "description": "Start of big turn"
+    },
+    "3": {
+      "track": "sweet-sweet-canyon",
+      "count": 1,
+      "ext": true,
+      "img": "sweet-sweet-canyon-1.jpg",
+      "description": "Donut cut"
+    },
+    "4": {
+      "track": "thwomp-ruins",
+      "count": 1,
+      "ext": false,
+      "img": "thwomp-ruins-1.jpg",
+      "description": "Lap 2 middle ramp after second item set"
+    },
+    "5": {
+      "track": "thwomp-ruins",
+      "count": 2,
+      "ext": false,
+      "img": "thwomp-ruins-2.jpg",
+      "description": "Second tunnel"
+    },
+    "6": {
+      "track": "moo-moo-meadows",
+      "count": 1,
+      "ext": false,
+      "img": "moo-moo-meadows-1.jpg",
+      "description": "Cut after cows"
+    },
+    "7": {
+      "track": "gba-mario-circuit",
+      "count": 1,
+      "ext": true,
+      "img": "gba-mario-circuit-1.jpg",
+      "description": "Offroad at first turn"
+    },
+    "8": {
+      "track": "cheep-cheep-beach",
+      "count": 1,
+      "ext": true,
+      "img": "cheep-cheep-beach-1.jpg",
+      "description": "Before first item set"
+    },
+    "9": {
+      "track": "cheep-cheep-beach",
+      "count": 2,
+      "ext": false,
+      "img": "cheep-cheep-beach-2.jpg",
+      "description": "Tree before last item set"
+    },
+    "10": {
+      "track": "toad's-turnpike",
+      "count": 1,
+      "ext": false,
+      "img": "toad's-turnpike-1.jpg",
+      "description": "Final turn near the wall ramp"
+    },
+    "11": {
+      "track": "mario-circuit",
+      "count": 1,
+      "ext": false,
+      "img": "mario-circuit-1.jpg",
+      "description": "Offroad after bridge"
+    },
+    "12": {
+      "track": "toad-harbor",
+      "count": 1,
+      "ext": false,
+      "img": "toad-harbor-1.jpg",
+      "description": "Right path on second item set"
+    },
+    "13": {
+      "track": "twisted-mansion",
+      "count": 1,
+      "ext": false,
+      "img": "twisted-mansion-1.jpg",
+      "description": "Middle of first cut"
+    },
+    "14": {
+      "track": "shy-guy-falls",
+      "count": 1,
+      "ext": false,
+      "img": "shy-guy-falls-1.jpg",
+      "description": "Cut at the end"
+    },
+    "15": {
+      "track": "dry-dry-desert",
+      "count": 1,
+      "ext": false,
+      "img": "dry-dry-desert-1.jpg",
+      "description": "Before quicksand"
+    },
+    "16": {
+      "track": "donut-plains-3",
+      "count": 1,
+      "ext": false,
+      "img": "donut-plains-3-1.jpg",
+      "description": "Offroad after water part"
+    },
+    "17": {
+      "track": "royal-raceway",
+      "count": 1,
+      "ext": false,
+      "img": "royal-raceway-1.jpg",
+      "description": "Offroad at last item set"
+    },
+    "18": {
+      "track": "dk-jungle",
+      "count": 1,
+      "ext": true,
+      "img": "dk-jungle-1.jpg",
+      "description": "Ramp cut"
+    },
+    "19": {
+      "track": "dk-jungle",
+      "count": 2,
+      "ext": false,
+      "img": "dk-jungle-2.jpg",
+      "description": "By first totem"
+    },
+    "20": {
+      "track": "dk-jungle",
+      "count": 3,
+      "ext": false,
+      "img": "dk-jungle-3.jpg",
+      "description": "Final Turn"
+    },
+    "21": {
+      "track": "sunshine-airport",
+      "count": 1,
+      "ext": false,
+      "img": "sunshine-airport-1.jpg",
+      "description": "First item set"
+    },
+    "22": {
+      "track": "dolphin-shoals",
+      "count": 1,
+      "ext": true,
+      "img": "dolphin-shoals-1.jpg",
+      "description": "First item set"
+    },
+    "23": {
+      "track": "dolphin-shoals",
+      "count": 2,
+      "ext": true,
+      "img": "dolphin-shoals-2.jpg",
+      "description": "Middle of eel"
+    },
+    "24": {
+      "track": "electrodrome",
+      "count": 1,
+      "ext": true,
+      "img": "electrodrome-1.jpg",
+      "description": "Pipe cut"
+    },
+    "25": {
+      "track": "mount-wario",
+      "count": 1,
+      "ext": false,
+      "img": "mount-wario-1.jpg",
+      "description": "Cut before trees"
+    },
+    "26": {
+      "track": "wario-stadium",
+      "count": 1,
+      "ext": false,
+      "img": "wario-stadium-1.jpg",
+      "description": "Second item set"
+    },
+    "27": {
+      "track": "sherbet-land",
+      "count": 1,
+      "ext": false,
+      "img": "sherbet-land-1.jpg",
+      "description": "Right before water hole"
+    },
+    "28": {
+      "track": "music-park",
+      "count": 1,
+      "ext": true,
+      "img": "music-park-1.jpg",
+      "description": "Middle of white keys section"
+    },
+    "29": {
+      "track": "music-park",
+      "count": 2,
+      "ext": false,
+      "img": "music-park-2.jpg",
+      "description": "Second piranha plant"
+    },
+    "30": {
+      "track": "yoshi-valley",
+      "count": 1,
+      "ext": true,
+      "img": "yoshi-valley-1.jpg",
+      "description": "Second item set"
+    },
+    "31": {
+      "track": "yoshi-valley",
+      "count": 2,
+      "ext": false,
+      "img": "yoshi-valley-2.jpg",
+      "description": "Right of second bridge"
+    },
+    "32": {
+      "track": "cloudtop-cruise",
+      "count": 1,
+      "ext": true,
+      "img": "cloudtop-cruise-1.jpg",
+      "description": "After glider"
+    },
+    "33": {
+      "track": "bone-dry-dunes",
+      "count": 1,
+      "ext": false,
+      "img": "bone-dry-dunes-1.jpg",
+      "description": "Before glider"
+    },
+    "34": {
+      "track": "bowser's-castle",
+      "count": 1,
+      "ext": true,
+      "img": "bowser's-castle-1.jpg",
+      "description": "Starting line"
+    },
+    "35": {
+      "track": "bowser's-castle",
+      "count": 2,
+      "ext": false,
+      "img": "bowser's-castle-2.jpg",
+      "description": "After glider"
+    },
+    "36": {
+      "track": "rainbow-road",
+      "count": 1,
+      "ext": true,
+      "img": "rainbow-road-1.jpg",
+      "description": "Landing after drop cut"
+    },
+    "37": {
+      "track": "tick-tock-clock",
+      "count": 1,
+      "ext": true,
+      "img": "tick-tock-clock-1.jpg",
+      "description": "Clock hands cut at the end"
+    },
+    "38": {
+      "track": "pirahna-plant-slide",
+      "count": 1,
+      "ext": true,
+      "img": "pirahna-plant-slide-1.jpg",
+      "description": "After slide section"
+    },
+    "39": {
+      "track": "pirahna-plant-slide",
+      "count": 2,
+      "ext": false,
+      "img": "pirahna-plant-slide-2.jpg",
+      "description": "End cut"
+    },
+    "40": {
+      "track": "grumble-volcano",
+      "count": 1,
+      "ext": false,
+      "img": "grumble-volcano-1.jpg",
+      "description": "Before first item set"
+    },
+    "41": {
+      "track": "n64-rainbow-road",
+      "count": 1,
+      "ext": false,
+      "img": "n64-rainbow-road-1.jpg",
+      "description": "Final turn"
+    },
+    "42": {
+      "track": "yoshi-circuit",
+      "count": 1,
+      "ext": true,
+      "img": "yoshi-circuit-1.jpg",
+      "description": "Waterfall cut"
+    },
+    "43": {
+      "track": "yoshi-circuit",
+      "count": 2,
+      "ext": false,
+      "img": "yoshi-circuit-2.jpg",
+      "description": "Tunnel item set"
+    },
+    "44": {
+      "track": "dragon-driftway",
+      "count": 1,
+      "ext": false,
+      "img": "dragon-driftway-1.jpg",
+      "description": "Offroad cut"
+    },
+    "45": {
+      "track": "mute-city",
+      "count": 1,
+      "ext": true,
+      "img": "mute-city-1.jpg",
+      "description": "Single boost pad after second item set"
+    },
+    "46": {
+      "track": "wario's-gold-mine",
+      "count": 1,
+      "ext": true,
+      "img": "wario's-gold-mine-1.jpg",
+      "description": "Turn before tunnel"
+    },
+    "47": {
+      "track": "wario's-gold-mine",
+      "count": 2,
+      "ext": false,
+      "img": "wario's-gold-mine-2.jpg",
+      "description": "Last item set"
+    },
+    "48": {
+      "track": "snes-rainbow-road",
+      "count": 1,
+      "ext": false,
+      "img": "snes-rainbow-road-1.jpg",
+      "description": "Turn ramp trick"
+    },
+    "49": {
+      "track": "ice-ice-outpost",
+      "count": 1,
+      "ext": true,
+      "img": "ice-ice-outpost-1.jpg",
+      "description": "Ramp of second cut"
+    },
+    "50": {
+      "track": "ice-ice-outpost",
+      "count": 2,
+      "ext": true,
+      "img": "ice-ice-outpost-2.jpg",
+      "description": "Under yellow bridge on green path"
+    },
+    "51": {
+      "track": "hyrule-circuit",
+      "count": 1,
+      "ext": false,
+      "img": "hyrule-circuit-1.jpg",
+      "description": "Before glider"
+    },
+    "52": {
+      "track": "cheese-land",
+      "count": 1,
+      "ext": true,
+      "img": "cheese-land-1.jpg",
+      "description": "Offroad by first item set"
+    },
+    "53": {
+      "track": "cheese-land",
+      "count": 2,
+      "ext": false,
+      "img": "cheese-land-2.jpg",
+      "description": "Glider ramp cut"
+    },
+    "54": {
+      "track": "wild-woods",
+      "count": 1,
+      "ext": false,
+      "img": "wild-woods-1.jpg",
+      "description": "Right apth at start"
+    },
+    "55": {
+      "track": "animal-crossing",
+      "count": 1,
+      "ext": true,
+      "img": "animal-crossing-1.jpg",
+      "description": "After floating boxes"
+    },
+    "56": {
+      "track": "animal-crossing",
+      "count": 2,
+      "ext": false,
+      "img": "animal-crossing-2.jpg",
+      "description": "After tree by waterfall"
+    },
+    "57": {
+      "track": "neo-bowser-city",
+      "count": 1,
+      "ext": false,
+      "img": "neo-bowser-city-1.jpg",
+      "description": "Second sign after second item set"
+    },
+    "58": {
+      "track": "ribbon-road",
+      "count": 1,
+      "ext": true,
+      "img": "ribbon-road-1.jpg",
+      "description": "Glider before wave section"
+    },
+    "59": {
+      "track": "ribbon-road",
+      "count": 2,
+      "ext": false,
+      "img": "ribbon-road-2.jpg",
+      "description": "Final cut"
+    },
+    "60": {
+      "track": "super-bell-subway",
+      "count": 1,
+      "ext": false,
+      "img": "super-bell-subway-1.jpg",
+      "description": "Turn after first item set"
+    },
+    "61": {
+      "track": "super-bell-subway",
+      "count": 2,
+      "ext": false,
+      "img": "super-bell-subway-2.jpg",
+      "description": "Final cut"
+    },
+    "62": {
+      "track": "paris-promenade",
+      "count": 1,
+      "ext": true,
+      "img": "paris-promenade-1.jpg",
+      "description": "Lap 3 item set after glider"
+    },
+    "63": {
+      "track": "paris-promenade",
+      "count": 2,
+      "ext": true,
+      "img": "paris-promenade-2.jpg",
+      "description": "Lap 2 cardboard"
+    },
+    "64": {
+      "track": "3ds-toad-circuit",
+      "count": 1,
+      "ext": true,
+      "img": "3ds-toad-circuit-1.jpg",
+      "description": "Glider"
+    },
+    "65": {
+      "track": "3ds-toad-circuit",
+      "count": 2,
+      "ext": false,
+      "img": "3ds-toad-circuit-2.jpg",
+      "description": "Ramp before last item set"
+    },
+    "66": {
+      "track": "choco-mountain",
+      "count": 1,
+      "ext": true,
+      "img": "choco-mountain-1.jpg",
+      "description": "Turn before last item set"
+    },
+    "67": {
+      "track": "coconut-mall",
+      "count": 1,
+      "ext": true,
+      "img": "coconut-mall-1.jpg",
+      "description": "Store cut"
+    },
+    "68": {
+      "track": "tokyo-blur",
+      "count": 1,
+      "ext": false,
+      "img": "tokyo-blur-1.jpg",
+      "description": "Lamp 2 ramp cut"
+    },
+    "69": {
+      "track": "tokyo-blur",
+      "count": 2,
+      "ext": false,
+      "img": "tokyo-blur-2.jpg",
+      "description": "Lap 3 after last item set"
+    },
+    "70": {
+      "track": "shroomridge",
+      "count": 1,
+      "ext": false,
+      "img": "shroomridge-1.jpg",
+      "description": "Ramp cut"
+    },
+    "71": {
+      "track": "shroomridge",
+      "count": 2,
+      "ext": false,
+      "img": "shroomridge-2.jpg",
+      "description": "Tunnel"
+    },
+    "72": {
+      "track": "sky-garden",
+      "count": 1,
+      "ext": true,
+      "img": "sky-garden-1.jpg",
+      "description": "Start line"
+    },
+    "73": {
+      "track": "sky-garden",
+      "count": 2,
+      "ext": false,
+      "img": "sky-garden-2.jpg",
+      "description": "Offroad after first item set"
+    },
+    "74": {
+      "track": "ninja-hideaway",
+      "count": 1,
+      "ext": true,
+      "img": "ninja-hideaway-1.jpg",
+      "description": "Right path before floorboards section"
+    },
+    "75": {
+      "track": "ninja-hideaway",
+      "count": 2,
+      "ext": false,
+      "img": "ninja-hideaway-2.jpg",
+      "description": "Start of roof section"
+    },
+    "76": {
+      "track": "ninja-hideaway",
+      "count": 3,
+      "ext": false,
+      "img": "ninja-hideaway-3.jpg",
+      "description": "Cardboard cut"
+    },
+    "77": {
+      "track": "new-york-minute",
+      "count": 1,
+      "ext": true,
+      "img": "new-york-minute-1.jpg",
+      "description": "Lap 1 & 2 item set after bus"
+    },
+    "78": {
+      "track": "new-york-minute",
+      "count": 2,
+      "ext": false,
+      "img": "new-york-minute-2.jpg",
+      "description": "End cut"
+    },
+    "79": {
+      "track": "mario-circuit-3",
+      "count": 1,
+      "ext": false,
+      "img": "mario-circuit-3-1.jpg",
+      "description": "Offroad by second item set"
+    },
+    "80": {
+      "track": "mario-circuit-3",
+      "count": 2,
+      "ext": false,
+      "img": "mario-circuit-3-2.jpg",
+      "description": "Mushroom cut"
+    },
+    "81": {
+      "track": "waluigi-pinball",
+      "count": 1,
+      "ext": false,
+      "img": "waluigi-pinball-1.jpg",
+      "description": "Item set by pinball section"
+    },
+    "82": {
+      "track": "sydney-sprint",
+      "count": 1,
+      "ext": true,
+      "img": "sydney-sprint-1.jpg",
+      "description": "Lap 2 before glider"
+    },
+    "83": {
+      "track": "sydney-sprint",
+      "count": 2,
+      "ext": true,
+      "img": "sydney-sprint-2.jpg",
+      "description": "Lap 3 final glider"
+    },
+    "84": {
+      "track": "snow-land",
+      "count": 1,
+      "ext": true,
+      "img": "snow-land-1.jpg",
+      "description": "After bridge"
+    },
+    "85": {
+      "track": "mushroom-gorge",
+      "count": 1,
+      "ext": true,
+      "img": "mushroom-gorge-1.jpg",
+      "description": "Before cave"
+    },
+    "86": {
+      "track": "sky-high-sundae",
+      "count": 1,
+      "ext": true,
+      "img": "sky-high-sundae-1.jpg",
+      "description": "Landing after cliff item set"
+    }
+  }
+}

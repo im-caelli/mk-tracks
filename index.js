@@ -6,14 +6,10 @@ function setAttributes(el, options) {
    })
 }
 
-async function populateCups() {
-  // const requestCupURL = "data/cups.json";
-  // const cups = new Request(requestCupURL);
+// Fetch Data
+async function populateData() {
 
-  // const responseCups = await fetch(cups);
-  // const mkCups = await responseCups.json();
-
-  const responseCups = await fetch('data/cups.json', {
+  const responseCups = await fetch('data/mk-tracks.json', {
     headers: { Accept: 'application/json' },
   });
   const mkCups = await responseCups.json();
@@ -21,55 +17,63 @@ async function populateCups() {
     ([key, value]) => console.log(key, value)
   );
 
-  populateCupsList(mkCups);
+  renderData(mkCups);
   
 }
 
+// Render cups
+function renderData(obj) {
 
-function populateCupsList(obj) {
+  let cups = obj["Cups"];
+  let tracks = obj["Tracks"];
+  let bill = obj["Bill"];
 
-  let totalCups = Object. keys(obj). length;
+  // CUPS
 
-  for (let i = 1; i < totalCups + 1; i++) {
+  let totalCups = Object. keys(cups). length;
 
-  // Data
-   let cupName = obj[i]["name"];
-   let cupSlug = obj[i]["slug"];
-   let cupIcon = obj[i]["icon"];
-   
-  const cupList = document.querySelector("#cup-list");
+  for (let c = 1; c < totalCups + 1; c++) {
 
-  const accordionItem = document.createElement("div");
-  accordionItem.classList.add("accordion-item");
-  cupList.appendChild(accordionItem);
+    let cupName = obj["Cups"][c]["name"];
+    let cupSlug = obj["Cups"][c]["slug"];
+    let cupIcon = obj["Cups"][c]["icon"];
+    
+    const cupList = document.querySelector("#cup-list");
 
- const accordionHeader = document.createElement("h2");
- accordionHeader.classList.add("accordion-header");
- accordionItem.appendChild(accordionHeader);
+    const accordionItem = document.createElement("div");
+    accordionItem.classList.add("accordion-item");
+    cupList.appendChild(accordionItem);
 
- const accordionBTN = document.createElement("button");
- accordionBTN.textContent = cupName;
- setAttributes(accordionBTN, {"class": "accordion-button collapsed", "type": "button", "data-bs-toggle": "collapse", "aria-expanded": "true"});
- accordionBTN.setAttribute("data-bs-target", "#" + `${cupSlug}`);
- accordionBTN.setAttribute("aria-controls", `${cupSlug}`);
- accordionHeader.appendChild(accordionBTN);
+    const accordionHeader = document.createElement("h2");
+    accordionHeader.classList.add("accordion-header");
+    accordionItem.appendChild(accordionHeader);
+
+    const accordionBTN = document.createElement("button");
+    accordionBTN.textContent = cupName;
+    setAttributes(accordionBTN, {"class": "accordion-button collapsed", "type": "button", "data-bs-toggle": "collapse", "aria-expanded": "true"});
+    accordionBTN.setAttribute("data-bs-target", "#" + `${cupSlug}`);
+    accordionBTN.setAttribute("aria-controls", `${cupSlug}`);
+    accordionHeader.appendChild(accordionBTN);
 
 
- const icon =  document.createElement("img");
- icon.src = `img/cups/${cupIcon}`;
- accordionBTN.prepend(icon);
+    const icon =  document.createElement("img");
+    icon.src = `img/cups/${cupIcon}`;
+    accordionBTN.prepend(icon);
 
- const accordionContent = document.createElement("div");
- accordionContent.setAttribute("id", `${cupSlug}`);
- setAttributes(accordionContent, {"class": "accordion-collapse collapse", "data-bs-parent": "#cup-list"});
- accordionItem.appendChild(accordionContent);
+    const accordionContent = document.createElement("div");
+    accordionContent.setAttribute("id", `${cupSlug}`);
+    setAttributes(accordionContent, {"class": "accordion-collapse collapse", "data-bs-parent": "#cup-list"});
+    accordionItem.appendChild(accordionContent);
 
- const accordionBody = document.createElement("div");
- accordionBody.classList.add("accordion-body");
- accordionBody.textContent = "Test";
- accordionContent.appendChild(accordionBody);
+    const accordionBody = document.createElement("div");
+    accordionBody.classList.add("accordion-body");
+    accordionBody.textContent = "Test";
+    accordionContent.appendChild(accordionBody);
+  }
+
+  // TRACKS
+
+
 }
 
-}
-
-populateCups();
+populateData();
