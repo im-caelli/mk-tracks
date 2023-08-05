@@ -1,0 +1,112 @@
+{
+  "1": {
+    "name": "Mushroom Cup",
+    "slug": "mushroom-cup",
+    "icon": "Mushroom_Cup_Emblem.png"
+  },
+  "2": {
+    "name": "Flower Cup",
+    "slug": "flower-cup",
+    "icon": "Flower_Cup_Emblem.png"
+  },
+  "3": {
+    "name": "Star Cup",
+    "slug": "star-cup",
+    "icon": "Star_Cup_Emblem.png"
+  },
+  "4": {
+    "name": "Special Cup",
+    "slug": "special-cup",
+    "icon": "Special_Cup_Emblem.png"
+  },
+  "5": {
+    "name": "Shell Cup",
+    "slug": "shell-cup",
+    "icon": "Shell_Cup_Emblem.png"
+  },
+  "6": {
+    "name": "Banana Cup",
+    "slug": "banana-cup",
+    "icon": "Banana_Cup_Emblem.png"
+  },
+  "7": {
+    "name": "Leaf Cup",
+    "slug": "leaf-cup",
+    "icon": "Leaf_Cup_Emblem.png"
+  },
+  "8": {
+    "name": "Lightning Cup",
+    "slug": "lightning-cup",
+    "icon": "Lightning_Cup_Emblem.png"
+  },
+  "9": {
+    "name": "Egg Cup",
+    "slug": "egg-cup",
+    "icon": "Egg_Cup_Emblem.png"
+  },
+  "10": {
+    "name": "Crossing Cup",
+    "slug": "crossing-cup",
+    "icon": "Crossing_Cup_Emblem.png"
+  },
+  "11": {
+    "name": "Triforce Cup",
+    "slug": "triforce-cup",
+    "icon": "Triforce_Cup_Emblem.png"
+  },
+  "12": {
+    "name": "Bell Cup",
+    "slug": "bell-cup",
+    "icon": "Bell_Cup_Emblem.png"
+  },
+  "13": {
+    "name": "Golden Dash Cup",
+    "slug": "golden-dash-cup",
+    "icon": "Golden_Dash_Cup_Emblem.png"
+  },
+  "14": {
+    "name": "Lucky Cat Cup",
+    "slug": "luck-cat-cup",
+    "icon": "Lucky_Cat_Cup_Emblem.png"
+  },
+  "15": {
+    "name": "Turnip Cup",
+    "slug": "turnip-cup",
+    "icon": "Turnip_Cup_Emblem.png"
+  },
+  "16": {
+    "name": "Propeller Cup",
+    "slug": "propeller-cup",
+    "icon": "Propeller_Cup_Emblem.png"
+  },
+  "17": {
+    "name": "Rock Cup",
+    "slug": "rock-cup",
+    "icon": "Rock_Cup_Emblem.png"
+  },
+  "18": {
+    "name": "Moon Cup",
+    "slug": "moon-cup",
+    "icon": "Moon_Cup_Emblem.png"
+  },
+  "19": {
+    "name": "Fruit Cup",
+    "slug": "fruit-cup",
+    "icon": "Fruit_Cup_Emblem.png"
+  },
+  "20": {
+    "name": "Boomerang Cup",
+    "slug": "boomerang-cup",
+    "icon": "Boomerang_Cup_Emblem.png"
+  },
+  "21": {
+    "name": "Feather Cup",
+    "slug": "feather-cup",
+    "icon": "Feather_Cup_Emblem.png"
+  },
+  "22": {
+    "name": "Cherry Cup",
+    "slug": "cherry-cup",
+    "icon": "Cherry_Cup_Emblem.png"
+  }
+}
