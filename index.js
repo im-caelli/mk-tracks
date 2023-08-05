@@ -12,12 +12,12 @@ async function populateData() {
   const responseCups = await fetch('data/mk-tracks.json', {
     headers: { Accept: 'application/json' },
   });
-  const mkCups = await responseCups.json();
-  Object.entries(mkCups).forEach(
-    ([key, value]) => console.log(key, value)
-  );
+  const mkTracks = await responseCups.json();
+  // Object.entries(mkCups).forEach(
+  //   ([key, value]) => console.log(key, value)
+  // );
 
-  renderData(mkCups);
+  renderData(mkTracks);
   
 }
 
@@ -28,15 +28,17 @@ function renderData(obj) {
   let tracks = obj["Tracks"];
   let bill = obj["Bill"];
 
+
   // CUPS
 
   let totalCups = Object. keys(cups). length;
 
   for (let c = 1; c < totalCups + 1; c++) {
 
-    let cupName = obj["Cups"][c]["name"];
-    let cupSlug = obj["Cups"][c]["slug"];
-    let cupIcon = obj["Cups"][c]["icon"];
+    let cupId = cups[c]["id"];
+    let cupName = cups[c]["name"];
+    let cupSlug = cups[c]["slug"];
+    let cupIcon = cups[c]["icon"];
     
     const cupList = document.querySelector("#cup-list");
 
@@ -50,29 +52,105 @@ function renderData(obj) {
 
     const accordionBTN = document.createElement("button");
     accordionBTN.textContent = cupName;
-    setAttributes(accordionBTN, {"class": "accordion-button collapsed", "type": "button", "data-bs-toggle": "collapse", "aria-expanded": "true"});
-    accordionBTN.setAttribute("data-bs-target", "#" + `${cupSlug}`);
-    accordionBTN.setAttribute("aria-controls", `${cupSlug}`);
+    setAttributes(accordionBTN, {
+      "class": "accordion-button collapsed", 
+      "type": "button", 
+      "data-bs-toggle": "collapse", 
+      "aria-expanded": "true",
+      "data-bs-target": `#${cupSlug}`,
+      "aria-controls": `${cupSlug}`
+    });
     accordionHeader.appendChild(accordionBTN);
 
-
-    const icon =  document.createElement("img");
-    icon.src = `img/cups/${cupIcon}`;
-    accordionBTN.prepend(icon);
+    const emblem =  document.createElement("img");
+    emblem.src = `img/cups/${cupIcon}`;
+    accordionBTN.prepend(emblem);
 
     const accordionContent = document.createElement("div");
-    accordionContent.setAttribute("id", `${cupSlug}`);
-    setAttributes(accordionContent, {"class": "accordion-collapse collapse", "data-bs-parent": "#cup-list"});
+    setAttributes(accordionContent, {
+      "id": `${cupSlug}`,
+      "class": "accordion-collapse collapse", 
+      "data-bs-parent": "#cup-list"
+    });
     accordionItem.appendChild(accordionContent);
 
     const accordionBody = document.createElement("div");
     accordionBody.classList.add("accordion-body");
-    accordionBody.textContent = "Test";
     accordionContent.appendChild(accordionBody);
+    
+    const trackList = document.createElement("ul");
+    trackList.classList.add("track-list-" + cupId);
+    accordionBody.appendChild(trackList);
   }
 
-  // TRACKS
 
+  // TRACKS
+  let totalTracks = Object. keys(tracks). length;
+
+  for (let t = 1; t < totalTracks + 1; t++) {
+
+    let trackName = tracks[t]["name"];
+    let trackSlug = tracks[t]["slug"];
+    let trackCup = tracks[t]["cup"];
+    let trackImg = tracks[t]["img"];
+    let trackCode = tracks[t]["code"];
+    let trackMap = tracks[t]["map"];
+
+    // List
+    const trackList = document.querySelector(".track-list-" + trackCup);
+
+    const trackItem = document.createElement("li");
+    const trackLink = document.createElement("a");
+    setAttributes(trackLink, {
+      "role": "button", 
+      "href": "", 
+      "data-bs-toggle": "offcanvas",
+      "aria-controls": `${trackSlug}`,
+      "data-bs-target": `#${trackSlug}`
+    });
+    trackLink.innerHTML = `<span class="visually-hidden-focusable">${trackName}</span>`;
+    trackItem.appendChild(trackLink);
+    trackList.appendChild(trackItem);
+
+    const courseImg = document.createElement("img");
+    courseImg.src = `img/courses/${trackImg}`;
+    trackLink.appendChild(courseImg);
+
+    // Content
+
+    const trackContent = document.querySelector("#track-content");
+
+    const offcanvas = document.createElement("div");
+    setAttributes(offcanvas, {
+      "id" : `${trackSlug}`,
+      "class": "offcanvas offcanvas-end", 
+      "data-bs-scroll": "true", 
+      "tabindex": "-1", 
+      "data-bs-theme" : "dark",
+      "aria-labelledby": `${trackSlug}-label`
+    });
+    trackContent.appendChild(offcanvas);
+
+    const offcanvasHeader = document.createElement("div");
+    offcanvasHeader.classList.add("offcanvas-header");
+    offcanvasHeader.innerHTML = '<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>';
+    offcanvas.appendChild(offcanvasHeader);
+    
+    const offcanvasTitle = document.createElement("h5");
+    setAttributes(offcanvasTitle, {
+      "id" : `${trackSlug}-label`,
+      "class": "offcanvas-title"
+    });
+    offcanvasTitle.innerHTML = `${trackName} <code>${trackCode}</code>`;
+    offcanvasHeader.prepend(offcanvasTitle);
+
+    const offcanvasBody = document.createElement("div");
+    offcanvasBody.classList.add("offcanvas-body");
+    offcanvasBody.innerHTML = `<p>${trackName}</p>`;
+    offcanvas.appendChild(offcanvasBody);
+
+
+  }
 
 }
 
