@@ -64,6 +64,7 @@ function renderData(obj) {
 
     const emblem =  document.createElement("img");
     emblem.src = `img/cups/${cupIcon}`;
+    emblem.setAttribute("alt", `${cupName}`);
     accordionBTN.prepend(emblem);
 
     const accordionContent = document.createElement("div");
@@ -114,10 +115,11 @@ function renderData(obj) {
 
     const courseImg = document.createElement("img");
     courseImg.src = `img/courses/${trackImg}`;
+    courseImg.setAttribute("alt", `${trackName}`);
     trackLink.appendChild(courseImg);
 
-    // Content
 
+    // Content
     const trackContent = document.querySelector("#track-content");
 
     const offcanvas = document.createElement("div");
@@ -146,11 +148,27 @@ function renderData(obj) {
 
     const offcanvasBody = document.createElement("div");
     offcanvasBody.classList.add("offcanvas-body");
-    offcanvasBody.innerHTML = `<p>${trackName}</p>`;
     offcanvas.appendChild(offcanvasBody);
 
-
+    const map = document.createElement("div");
+    map.classList.add("track-map");
+    map.innerHTML = `<img src="img/maps/${trackMap}" alt="${trackName} Map"/>`
+    offcanvasBody.appendChild(map);
   }
+
+
+  // BILLS
+  // let totalBills = Object. keys(bill). length;
+  // console.log(totalBills)
+
+  // for (let b = 1; b < totalBills + 1; b++) {
+  //   let billTrack = bill[b]["track"];
+  //   let billExt = bill[b]["ext"];
+  //   let billImg = bill[b]["img"];
+  //   let billDesc = bill[b]["description"];
+
+  // }
+
 
 }
 
