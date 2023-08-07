@@ -1130,82 +1130,82 @@
     },
     "26": {
       "id": 26,
-      "track": "wario-stadium",
-      "count": 1,
-      "ext": false,
-      "img": "wario-stadium-1.jpg",
-      "description": "Second item set"
-    },
-    "27": {
-      "id": 27,
       "track": "sherbet-land",
       "count": 1,
       "ext": false,
       "img": "sherbet-land-1.jpg",
       "description": "Right before water hole"
     },
-    "28": {
-      "id": 28,
+    "27": {
+      "id": 27,
       "track": "music-park",
       "count": 1,
       "ext": true,
       "img": "music-park-1.jpg",
       "description": "Middle of white keys section"
     },
-    "29": {
-      "id": 29,
+    "28": {
+      "id": 28,
       "track": "music-park",
       "count": 2,
       "ext": false,
       "img": "music-park-2.jpg",
-      "description": "Second piranha plant"
+      "description": "Bouncing section"
     },
-    "30": {
-      "id": 30,
+    "29": {
+      "id": 29,
       "track": "yoshi-valley",
       "count": 1,
       "ext": true,
       "img": "yoshi-valley-1.jpg",
       "description": "Second item set"
     },
-    "31": {
-      "id": 31,
+    "30": {
+      "id": 30,
       "track": "yoshi-valley",
       "count": 2,
       "ext": false,
       "img": "yoshi-valley-2.jpg",
-      "description": "Right of second bridge"
+      "description": "Left of fork"
     },
-    "32": {
-      "id": 32,
+    "31": {
+      "id": 31,
       "track": "cloudtop-cruise",
       "count": 1,
       "ext": true,
       "img": "cloudtop-cruise-1.jpg",
       "description": "After glider"
     },
-    "33": {
-      "id": 33,
+    "32": {
+      "id": 32,
       "track": "bone-dry-dunes",
       "count": 1,
       "ext": false,
       "img": "bone-dry-dunes-1.jpg",
       "description": "Before glider"
     },
+    "33": {
+      "id": 33,
+      "track": "bone-dry-dunes",
+      "count": 2,
+      "ext": false,
+      "img": "bone-dry-dunes-2.jpg",
+      "description": "Offroad ramp"
+    },
     "34": {
       "id": 34,
-      "track": "bowser's-castle",
+      "track": "bowsers-castle",
       "count": 1,
       "ext": true,
-      "img": "bowser's-castle-1.jpg",
+      "img": "bowsers-castle-1.jpg",
       "description": "Starting line"
     },
     "35": {
       "id": 35,
-      "track": "bowser's-castle",
+      "track": "bowsers-castle",
       "count": 2,
       "ext": false,
-      "img": "bowser's-castle-2.jpg",
+      "img": "bowsers-castle-2.jpg",
       "description": "After glider"
     },
     "36": {
@@ -1290,18 +1290,18 @@
     },
     "46": {
       "id": 46,
-      "track": "wario's-gold-mine",
+      "track": "warios-gold-mine",
       "count": 1,
       "ext": true,
-      "img": "wario's-gold-mine-1.jpg",
+      "img": "warios-gold-mine-1.jpg",
       "description": "Turn before tunnel"
     },
     "47": {
       "id": 47,
-      "track": "wario's-gold-mine",
+      "track": "warios-gold-mine",
       "count": 2,
       "ext": false,
-      "img": "wario's-gold-mine-2.jpg",
+      "img": "warios-gold-mine-2.jpg",
       "description": "Last item set"
     },
     "48": {
