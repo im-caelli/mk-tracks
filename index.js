@@ -1,12 +1,23 @@
 
-// Helpers
+// --- Helpers
+
+// Set multiple attributes
 function setAttributes(el, options) {
    Object.keys(options).forEach(function(attr) {
      el.setAttribute(attr, options[attr]);
    })
 }
 
-// Fetch Data
+// Check if file exists
+function urlExists(url) {
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  http.send();
+  return http.status!=404;
+}
+
+
+// --- Fetch Data
 async function populateData() {
 
   const responseCups = await fetch('data/mk-tracks.json', {
@@ -21,17 +32,17 @@ async function populateData() {
   
 }
 
-// Render cups
+// --- Render Data
 function renderData(obj) {
 
   let cups = obj["Cups"];
   let tracks = obj["Tracks"];
-  let bill = obj["Bill"];
+  let bills = obj["Bills"];
 
 
   // CUPS
 
-  let totalCups = Object. keys(cups). length;
+  let totalCups = Object.keys(cups).length;
 
   for (let c = 1; c < totalCups + 1; c++) {
 
@@ -40,6 +51,7 @@ function renderData(obj) {
     let cupSlug = cups[c]["slug"];
     let cupIcon = cups[c]["icon"];
     
+   
     const cupList = document.querySelector("#cup-list");
 
     const accordionItem = document.createElement("div");
@@ -86,7 +98,7 @@ function renderData(obj) {
 
 
   // TRACKS
-  let totalTracks = Object. keys(tracks). length;
+  let totalTracks = Object.keys(tracks).length;
 
   for (let t = 1; t < totalTracks + 1; t++) {
 
@@ -151,23 +163,54 @@ function renderData(obj) {
     offcanvas.appendChild(offcanvasBody);
 
     const map = document.createElement("div");
-    map.classList.add("track-map");
-    map.innerHTML = `<img src="img/maps/${trackMap}" alt="${trackName} Map"/>`
+    map.classList.add("track-map")
     offcanvasBody.appendChild(map);
+
+    let existingMap = urlExists(`/img/maps/${trackMap}`);
+
+    if (existingMap) {
+      map.innerHTML = `<img src="img/maps/${trackMap}" alt="${trackName} Map"/>`
+    } else {
+      map.textContent = "No map available."
+    }
+
+    const bill = document.createElement("div");
+    bill.classList.add("track-bill");
+    offcanvasBody.appendChild(bill);
+   
   }
 
 
   // BILLS
-  // let totalBills = Object. keys(bill). length;
+  let totalBills = Object.keys(bills).length;
   // console.log(totalBills)
 
-  // for (let b = 1; b < totalBills + 1; b++) {
-  //   let billTrack = bill[b]["track"];
-  //   let billExt = bill[b]["ext"];
-  //   let billImg = bill[b]["img"];
-  //   let billDesc = bill[b]["description"];
+  for (let b = 1; b < totalBills + 1; b++) {
+    let billTrack = bills[b]["track"];
+    let billExt = bills[b]["ext"];
+    let billImg = bills[b]["img"];
+    let billDesc = bills[b]["description"];
 
-  // }
+    const billList = document.querySelector(`#${billTrack} .track-bill`);
+
+    const billCard = document.createElement("div");
+
+    let existingBill = urlExists(`/img/bills/${billImg}`);
+
+    if (existingBill) {
+      billCard.innerHTML = `<img src="img/bills/${billImg}" alt="${billDesc}"/>`
+      billList.appendChild(billCard);
+    } else {
+      billCard.textContent = "No screenshot available."
+    }
+
+    const billText = document.createElement("span");
+    billText.textContent = `${billDesc}`;
+    billCard.appendChild(billText);
+
+
+    
+  }
 
 
 }

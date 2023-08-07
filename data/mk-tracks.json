@@ -927,7 +927,7 @@
       "map": "88.jpg"
     }
   },
-  "Bill": {
+  "Bills": {
     "1": {
       "id": 1,
       "track": "mario-kart-stadium",
@@ -1002,10 +1002,10 @@
     },
     "10": {
       "id": 10,
-      "track": "toad's-turnpike",
+      "track": "toads-turnpike",
       "count": 1,
       "ext": false,
-      "img": "toad's-turnpike-1.jpg",
+      "img": "toads-turnpike-1.jpg",
       "description": "Final turn near the wall ramp"
     },
     "11": {
@@ -1226,18 +1226,18 @@
     },
     "38": {
       "id": 38,
-      "track": "pirahna-plant-slide",
+      "track": "piranha-plant-slide",
       "count": 1,
       "ext": true,
-      "img": "pirahna-plant-slide-1.jpg",
+      "img": "piranha-plant-slide-1.jpg",
       "description": "After slide section"
     },
     "39": {
       "id": 39,
-      "track": "pirahna-plant-slide",
+      "track": "piranha-plant-slide",
       "count": 2,
       "ext": false,
-      "img": "pirahna-plant-slide-2.jpg",
+      "img": "piranha-plant-slide-2.jpg",
       "description": "End cut"
     },
     "40": {
@@ -1434,18 +1434,18 @@
     },
     "64": {
       "id": 64,
-      "track": "3ds-toad-circuit",
+      "track": "toad-circuit",
       "count": 1,
       "ext": true,
-      "img": "3ds-toad-circuit-1.jpg",
+      "img": "toad-circuit-1.jpg",
       "description": "Glider"
     },
     "65": {
       "id": 65,
-      "track": "3ds-toad-circuit",
+      "track": "toad-circuit",
       "count": 2,
       "ext": false,
-      "img": "3ds-toad-circuit-2.jpg",
+      "img": "toad-circuit-2.jpg",
       "description": "Ramp before last item set"
     },
     "66": {
