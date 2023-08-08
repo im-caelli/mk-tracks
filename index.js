@@ -8,14 +8,6 @@ function setAttributes(el, options) {
    })
 }
 
-// Check if file exists
-function urlExists(url) {
-  var http = new XMLHttpRequest();
-  http.open('HEAD', url, false);
-  http.send();
-  return http.status!=404;
-}
-
 
 // --- Fetch Data
 async function populateData() {
@@ -166,9 +158,8 @@ function renderData(obj) {
     map.classList.add("track-map")
     offcanvasBody.appendChild(map);
 
-    let existingMap = urlExists(`/img/maps/${trackMap}`);
 
-    if (existingMap) {
+    if (trackMap) {
       map.innerHTML = `<img src="img/maps/${trackMap}" alt="${trackName} Map"/>`
     } else {
       map.textContent = "No map available."
@@ -195,9 +186,8 @@ function renderData(obj) {
 
     const billCard = document.createElement("div");
 
-    let existingBill = urlExists(`/img/bills/${billImg}`);
 
-    if (existingBill) {
+    if (billImg) {
       billCard.innerHTML = `<img src="img/bills/${billImg}" alt="${billDesc}"/>`
       billList.appendChild(billCard);
     } else {
@@ -208,8 +198,6 @@ function renderData(obj) {
     billText.textContent = `${billDesc}`;
     billCard.appendChild(billText);
 
-
-    
   }
 
 

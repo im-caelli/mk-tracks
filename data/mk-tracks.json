@@ -861,7 +861,7 @@
       "code": "batd",
       "cup": "21",
       "img": "Athens_Dash_Course_Icon.png",
-      "map": "81.jpg"
+      "map": null
     },
     "82": {
       "id": "82",
@@ -870,7 +870,7 @@
       "code": "bdc",
       "cup": "21",
       "img": "Daisy_Cruiser_Course_Icon.png",
-      "map": "82.jpg"
+      "map": null
     },
     "83": {
       "id": "83",
@@ -879,7 +879,7 @@
       "code": "bmh",
       "cup": "21",
       "img": "Moonview_Highway_Course_Icon.png",
-      "map": "83.jpg"
+      "map": null
     },
     "84": {
       "id": "84",
@@ -888,7 +888,7 @@
       "code": "bscs",
       "cup": "21",
       "img": "Squeaky_Clean_Sprint_Course_Icon.png",
-      "map": "84.jpg"
+      "map": null
     },
     "85": {
       "id": "85",
@@ -897,7 +897,7 @@
       "code": "blal",
       "cup": "22",
       "img": "Los_Angeles_Laps_Course_Icon.png",
-      "map": "85.jpg"
+      "map": null
     },
     "86": {
       "id": "86",
@@ -906,7 +906,7 @@
       "code": "bsw",
       "cup": "22",
       "img": "Sunset_Wilds_Course_Icon.png",
-      "map": "86.jpg"
+      "map": null
     },
     "87": {
       "id": "87",
@@ -915,7 +915,7 @@
       "code": "bkc",
       "cup": "22",
       "img": "Koopa_Cape_Course_Icon.png",
-      "map": "87.jpg"
+      "map": null
     },
     "88": {
       "id": "88",
@@ -924,7 +924,7 @@
       "code": "bvv",
       "cup": "22",
       "img": "Vancouver_Velocity_Course_Icon.png",
-      "map": "88.jpg"
+      "map": null
     }
   },
   "Bills": {
@@ -1482,18 +1482,18 @@
     },
     "70": {
       "id": 70,
-      "track": "shroomridge",
+      "track": "shroom-ridge",
       "count": 1,
       "ext": false,
-      "img": "shroomridge-1.jpg",
+      "img": "shroom-ridge-1.jpg",
       "description": "Ramp cut"
     },
     "71": {
       "id": 71,
-      "track": "shroomridge",
+      "track": "shroom-ridge",
       "count": 2,
       "ext": false,
-      "img": "shroomridge-2.jpg",
+      "img": "shroom-ridge-2.jpg",
       "description": "Tunnel"
     },
     "72": {
@@ -1530,86 +1530,78 @@
     },
     "76": {
       "id": 76,
-      "track": "ninja-hideaway",
-      "count": 3,
-      "ext": false,
-      "img": "ninja-hideaway-3.jpg",
-      "description": "Cardboard cut"
-    },
-    "77": {
-      "id": 77,
       "track": "new-york-minute",
       "count": 1,
       "ext": true,
       "img": "new-york-minute-1.jpg",
       "description": "Lap 1 & 2 item set after bus"
     },
-    "78": {
-      "id": 78,
+    "77": {
+      "id": 77,
       "track": "new-york-minute",
       "count": 2,
       "ext": false,
       "img": "new-york-minute-2.jpg",
       "description": "End cut"
     },
-    "79": {
-      "id": 79,
+    "78": {
+      "id": 78,
       "track": "mario-circuit-3",
       "count": 1,
       "ext": false,
       "img": "mario-circuit-3-1.jpg",
       "description": "Offroad by second item set"
     },
-    "80": {
-      "id": 80,
+    "79": {
+      "id": 79,
       "track": "mario-circuit-3",
       "count": 2,
       "ext": false,
       "img": "mario-circuit-3-2.jpg",
       "description": "Mushroom cut"
     },
-    "81": {
-      "id": 81,
+    "80": {
+      "id": 80,
       "track": "waluigi-pinball",
       "count": 1,
       "ext": false,
       "img": "waluigi-pinball-1.jpg",
       "description": "Item set by pinball section"
     },
-    "82": {
-      "id": 82,
+    "81": {
+      "id": 81,
       "track": "sydney-sprint",
       "count": 1,
       "ext": true,
       "img": "sydney-sprint-1.jpg",
       "description": "Lap 2 before glider"
     },
-    "83": {
-      "id": 83,
+    "82": {
+      "id": 82,
       "track": "sydney-sprint",
       "count": 2,
       "ext": true,
       "img": "sydney-sprint-2.jpg",
       "description": "Lap 3 final glider"
     },
-    "84": {
-      "id": 84,
+    "83": {
+      "id": 83,
       "track": "snow-land",
       "count": 1,
       "ext": true,
       "img": "snow-land-1.jpg",
       "description": "After bridge"
     },
-    "85": {
-      "id": 85,
+    "84": {
+      "id": 84,
       "track": "mushroom-gorge",
       "count": 1,
       "ext": true,
       "img": "mushroom-gorge-1.jpg",
       "description": "Before cave"
     },
-    "86": {
-      "id": 86,
+    "85": {
+      "id": 85,
       "track": "sky-high-sundae",
       "count": 1,
       "ext": true,
