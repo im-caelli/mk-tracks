@@ -15,14 +15,13 @@ async function populateData() {
   const responseCups = await fetch('data/mk-tracks.json', {
     headers: { Accept: 'application/json' },
   });
+
   const mkTracks = await responseCups.json();
-  // Object.entries(mkCups).forEach(
-  //   ([key, value]) => console.log(key, value)
-  // );
 
   renderData(mkTracks);
   
 }
+
 
 // --- Render Data
 function renderData(obj) {
@@ -33,7 +32,6 @@ function renderData(obj) {
 
 
   // CUPS
-
   let totalCups = Object.keys(cups).length;
 
   for (let c = 1; c < totalCups + 1; c++) {
@@ -55,9 +53,9 @@ function renderData(obj) {
     accordionItem.appendChild(accordionHeader);
 
     const accordionBTN = document.createElement("button");
-    accordionBTN.textContent = cupName;
+    accordionBTN.innerHTML = "<span class='mkt-cup-title'>" + cupName + "</span>";
     setAttributes(accordionBTN, {
-      "class": "accordion-button collapsed", 
+      "class": "accordion-button collapsed mkt-cup-btn", 
       "type": "button", 
       "data-bs-toggle": "collapse", 
       "aria-expanded": "true",
@@ -69,6 +67,7 @@ function renderData(obj) {
     const emblem =  document.createElement("img");
     emblem.src = `img/cups/${cupIcon}`;
     emblem.setAttribute("alt", `${cupName}`);
+    emblem.classList.add("mkt-cup-emblem");
     accordionBTN.prepend(emblem);
 
     const accordionContent = document.createElement("div");
@@ -80,11 +79,11 @@ function renderData(obj) {
     accordionItem.appendChild(accordionContent);
 
     const accordionBody = document.createElement("div");
-    accordionBody.classList.add("accordion-body");
+    accordionBody.classList.add("accordion-body", "p-0");
     accordionContent.appendChild(accordionBody);
     
     const trackList = document.createElement("ul");
-    trackList.classList.add("track-list-" + cupId);
+    trackList.classList.add("track-list-" + cupId, "mkt-track-list");
     accordionBody.appendChild(trackList);
   }
 
@@ -111,7 +110,8 @@ function renderData(obj) {
       "href": "", 
       "data-bs-toggle": "offcanvas",
       "aria-controls": `${trackSlug}`,
-      "data-bs-target": `#${trackSlug}`
+      "data-bs-target": `#${trackSlug}`,
+      "class": "mkt-track-btn"
     });
     trackLink.innerHTML = `<span class="visually-hidden-focusable">${trackName}</span>`;
     trackItem.appendChild(trackLink);
@@ -120,6 +120,7 @@ function renderData(obj) {
     const courseImg = document.createElement("img");
     courseImg.src = `img/courses/${trackImg}`;
     courseImg.setAttribute("alt", `${trackName}`);
+    courseImg.classList.add("mkt-track-img");
     trackLink.appendChild(courseImg);
 
 
@@ -142,12 +143,12 @@ function renderData(obj) {
     offcanvasHeader.innerHTML = '<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>';
     offcanvas.appendChild(offcanvasHeader);
     
-    const offcanvasTitle = document.createElement("h5");
+    const offcanvasTitle = document.createElement("h3");
     setAttributes(offcanvasTitle, {
       "id" : `${trackSlug}-label`,
-      "class": "offcanvas-title"
+      "class": "offcanvas-title mkt-track-content-title"
     });
-    offcanvasTitle.innerHTML = `${trackName} <code>${trackCode}</code>`;
+    offcanvasTitle.innerHTML = `<code>${trackCode}</code> ${trackName} `;
     offcanvasHeader.prepend(offcanvasTitle);
 
     const offcanvasBody = document.createElement("div");
@@ -155,7 +156,7 @@ function renderData(obj) {
     offcanvas.appendChild(offcanvasBody);
 
     const map = document.createElement("div");
-    map.classList.add("track-map")
+    map.classList.add("mkt-track-map")
     offcanvasBody.appendChild(map);
 
 
@@ -166,7 +167,7 @@ function renderData(obj) {
     }
 
     const bill = document.createElement("div");
-    bill.classList.add("track-bill");
+    bill.classList.add("mkt-track-bill");
     offcanvasBody.appendChild(bill);
    
   }
@@ -181,25 +182,35 @@ function renderData(obj) {
     let billExt = bills[b]["ext"];
     let billImg = bills[b]["img"];
     let billDesc = bills[b]["description"];
+    let billCount = bills[b]["count"];
 
-    const billList = document.querySelector(`#${billTrack} .track-bill`);
+    const billList = document.querySelector(`#${billTrack} .mkt-track-bill`);
+
+    if (billCount == 1) {
+      const billTitle = document.createElement("h4");
+      billTitle.innerHTML = `<span class="bill-icon"></span> Bullet Bill Strategy`;
+      billList.appendChild(billTitle);
+    }
 
     const billCard = document.createElement("div");
 
-
     if (billImg) {
       billCard.innerHTML = `<img src="img/bills/${billImg}" alt="${billDesc}"/>`
-      billList.appendChild(billCard);
     } else {
       billCard.textContent = "No screenshot available."
     }
 
     const billText = document.createElement("span");
     billText.textContent = `${billDesc}`;
+
+    if (billExt) {
+      billText.classList.add("ext");
+    }
+
+    billCard.classList.add("mkt-bill-card");
+    billList.appendChild(billCard);
     billCard.appendChild(billText);
-
   }
-
 
 }
 

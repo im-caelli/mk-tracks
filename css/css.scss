@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+$light: #f8f9fa;
+$yellow: #ffc107;
+
 body {
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
@@ -11,12 +17,125 @@ code {
   font-family: monospace;
   font-size: 1em;
   color: #495057;
+  vertical-align: middle;
 }
 
 .offcanvas {
-  min-width: 50%;
+  // min-width: 50%;
 
   &-title code {
     font-size: .75em;
   }
+
+  &-body {
+    // display: flex;
+    // justify-content: space-between;
+  }
+}
+
+.bill-icon {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-image: url(/img/bill-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mkt {
+  // Cup List
+   &-cup-emblem {
+    max-width: 50px;
+   }
+
+   &-cup-title {
+    display: block;
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+   }
+   
+   // Track List
+   &-track-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+
+    li {
+      flex: 1 1 auto;
+      margin: 0 .5rem;
+    }
+   }
+
+   &-track-btn {
+    display: block;
+    border-radius: 1rem;
+    border: 5px solid #212529;
+    transition: all .1s ease-in-out;
+
+    &:hover, &:active, &:focus {
+      opacity: .8;
+      border-color: $yellow;
+    }
+   }
+
+   &-track-img {
+    display: block;
+    width: 100%;
+    // max-width: 150px;
+   }
+
+   // Track Content
+
+   &-track-map {
+    // width: 48%;
+    img {
+      display: block;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+   }
+
+   &-track-bill {
+    // width: 48%;
+    // margin: 2rem 0;
+    h4 {
+      border-bottom: 1px solid $light;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+    }
+   }
+
+   &-bill-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 1rem 1rem 0 0;
+    }
+
+    span {
+      display: block;
+      padding: 1rem;
+      border-radius: 0 0 1rem 1rem;
+      background-color: $light;
+      color: #333;
+
+      &.ext {
+        background-color: $yellow;
+        display: flex;
+        justify-content: space-between;
+
+        &::after {
+          content: '⭐';
+          display: block;
+        }
+      }
+    }
+   }
 }
