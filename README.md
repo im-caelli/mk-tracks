@@ -1,6 +1,6 @@
 # MK Tracks
 
-Track cheatsheet for MK
+Track cheatsheet for MK8DX
 
 ## Resources
 
