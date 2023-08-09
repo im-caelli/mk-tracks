@@ -20,6 +20,16 @@ code {
   vertical-align: middle;
 }
 
+.gh-link {
+  text-decoration: none;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #495057;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .offcanvas {
   // min-width: 50%;
 
