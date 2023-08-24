@@ -861,7 +861,7 @@
       "code": "batd",
       "cup": "21",
       "img": "Athens_Dash_Course_Icon.png",
-      "map": null
+      "map": "81.jpg"
     },
     "82": {
       "id": "82",
@@ -870,7 +870,7 @@
       "code": "bdc",
       "cup": "21",
       "img": "Daisy_Cruiser_Course_Icon.png",
-      "map": null
+      "map": "82.jpg"
     },
     "83": {
       "id": "83",
@@ -879,7 +879,7 @@
       "code": "bmh",
       "cup": "21",
       "img": "Moonview_Highway_Course_Icon.png",
-      "map": null
+      "map": "83.jpg"
     },
     "84": {
       "id": "84",
@@ -888,7 +888,7 @@
       "code": "bscs",
       "cup": "21",
       "img": "Squeaky_Clean_Sprint_Course_Icon.png",
-      "map": null
+      "map": "84.jpg"
     },
     "85": {
       "id": "85",
@@ -897,7 +897,7 @@
       "code": "blal",
       "cup": "22",
       "img": "Los_Angeles_Laps_Course_Icon.png",
-      "map": null
+      "map": "85.jpg"
     },
     "86": {
       "id": "86",
@@ -906,7 +906,7 @@
       "code": "bsw",
       "cup": "22",
       "img": "Sunset_Wilds_Course_Icon.png",
-      "map": null
+      "map": "86.jpg"
     },
     "87": {
       "id": "87",
@@ -915,7 +915,7 @@
       "code": "bkc",
       "cup": "22",
       "img": "Koopa_Cape_Course_Icon.png",
-      "map": null
+      "map": "87.jpg"
     },
     "88": {
       "id": "88",
@@ -924,7 +924,7 @@
       "code": "bvv",
       "cup": "22",
       "img": "Vancouver_Velocity_Course_Icon.png",
-      "map": null
+      "map": "88.jpg"
     }
   },
   "Bills": {
